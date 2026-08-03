@@ -1,0 +1,9 @@
+# data files (download from GEO instead)
+*.Rdata
+*.RData
+*.rds
+*.csv
+*.txt
+*.gz
+!R_packages.txt
+.DS_Store
