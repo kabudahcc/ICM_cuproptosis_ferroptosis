@@ -54,8 +54,7 @@ pca_df <- function(pca, color_by, label) {
     PC1 = pca$x[, 1], PC2 = pca$x[, 2],
     color = color_by,
     xlab = paste0("PC1 (", ve[1], "%)"),
-    ylab = paste0("PC2 (", ve[2], "%)"),
-    stringsAsFactors = FALSE
+    ylab = paste0("PC2 (", ve[2], "%)")
   )
 }
 plot_pca <- function(df, title, legend_title, pal) {
